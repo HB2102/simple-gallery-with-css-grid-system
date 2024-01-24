@@ -1,0 +1,21 @@
+body{
+    background-color: #34495e;
+}
+
+.container > div {
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container > div:nth-child(even){
+    background-color: greenyellow;
+}
+
+
+.container > div:nth-child(odd){
+    background-color: blue;
+}

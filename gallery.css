@@ -1,0 +1,40 @@
+body{
+    background-color: #636e72;
+}
+
+
+
+
+.container{
+    display: grid;
+    gap: 7px;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    grid-auto-rows: 100px;
+}
+
+
+.container > div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    grid-auto-flow: dense;
+}
+
+.container > div{
+    border: 2px solid yellow;
+    border-radius: 10px;
+}
+
+
+.vertical{
+    grid-row: auto/span 2;
+}
+
+.horizontal{
+    grid-column: auto/span 2;
+}
+
+.big{
+    grid-row: auto/span 2;
+    grid-column: auto/span 2;
+}
